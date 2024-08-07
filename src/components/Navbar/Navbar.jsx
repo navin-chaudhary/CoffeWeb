@@ -29,7 +29,7 @@ function Navbar() {
     </div>
      <Link to="/"> <img src={logo} alt="Dann Good Coffee" className="h-16 lg:mr-36 " /></Link> 
     <div>
-    <button className="bg-orange-500 font-extrabold text-black hover:bg-[#379393] px-6 py-3 rounded animate-pulse">ORDER</button>
+    <button className="bg-orange-500 font-extrabold text-black hover:bg-[#379393] px-3 py-3 lg:px-4 lg:py-3 lg:text-xl rounded animate-pulse">NAVIN</button>
     </div>
     
     </div>
