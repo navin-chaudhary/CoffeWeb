@@ -15,7 +15,7 @@ function Hero4() {
       </p>
       <div className='flex flex-wrap justify-center '>
       <div className="home_team_list   ">
-        <div className="hero4animate bg-black text-white rounded-lg shadow-md p-4 lg:p-2 md:p-2  w-80 lg:w-64 sm:w-56 md:w-64">
+        <div className="hero4animate hero4ani bg-black text-white rounded-lg shadow-md p-4 lg:p-2 md:p-2  w-80 lg:w-64 sm:w-56 md:w-64">
           <img
             src={Heroimages1}
             alt="Dann"
@@ -24,7 +24,7 @@ function Hero4() {
           <h3 className="text-xl font-bold  mb-2 text-center">Dann</h3>
           <p className="text-center">Barista</p>
         </div>
-        <div className=" hero4animate bg-black text-white rounded-lg shadow-md p-4 lg:p-2 md:p-2  w-80 lg:w-64 sm:w-56 md:w-64">
+        <div className=" hero4animate hero4ani bg-black text-white rounded-lg shadow-md p-4 lg:p-2 md:p-2  w-80 lg:w-64 sm:w-56 md:w-64">
           <img
             src={Heroimages2}
             alt="Dann the Mann"
@@ -33,7 +33,7 @@ function Hero4() {
           <h3 className="text-xl font-bold  mb-2 text-center">Dann the Mann</h3>
           <p className="text-center">Beard Manager</p>
         </div>
-        <div className=" hero4animate bg-black text-white rounded-lg shadow-md p-4 lg:p-2 md:p-2  w-80 lg:w-64 sm:w-56 md:w-64">
+        <div className=" hero4animate hero4ani bg-black text-white rounded-lg shadow-md p-4 lg:p-2 md:p-2  w-80 lg:w-64 sm:w-56 md:w-64">
           <img
             src={Heroimages3}
             alt="D. 'Petty'"
@@ -42,7 +42,7 @@ function Hero4() {
           <h3 className="text-xl font-bold text-center mb-2">D. "Petty"</h3>
           <p className="text-center">Roaster</p>
         </div>
-        <div className="hero4animate bg-black text-white rounded-lg shadow-md p-4 lg:p-2 md:p-2  w-80 lg:w-64 sm:w-56 md:w-64">
+        <div className="hero4animate hero4ani bg-black text-white rounded-lg shadow-md p-4 lg:p-2 md:p-2  w-80 lg:w-64 sm:w-56 md:w-64">
           <img
             src={Heroimages4}
             alt="Danny"

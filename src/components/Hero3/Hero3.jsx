@@ -19,7 +19,7 @@ function Hero3() {
             <button className='text-center bg-white text-black p-3 rounded-lg font-extrabold  hover:bg-[#379393] duration-300 ease-out'>LET'S ROAST</button>
             </div>
        </div>
-       <div className=' w-[400px] h-[300px] hero3animate m-2'>
+       <div className=' w-[400px] h-[300px] hero3animate hero3 m-2'>
          <div className='flex justify-center items-center'>
           <img src={Heroimages2} alt="Custom Roasts" className='h-20'/>
           </div>
@@ -29,7 +29,7 @@ function Hero3() {
             <button className='text-center bg-white text-black p-3 rounded-lg font-extrabold uppercase hover:bg-[#379393] duration-300 ease-out'>Get Started</button>
             </div>
        </div>
-       <div className=' w-[400px] h-[300px] hero3animate m-2'>
+       <div className=' w-[400px] h-[300px] hero3animate hero3   m-2'>
          <div className='flex justify-center items-center'>
           <img src={Heroimages3} alt="Custom Roasts" className='h-20'/>
           </div>
