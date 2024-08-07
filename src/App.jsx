@@ -16,7 +16,7 @@ function App() {
   return (
     <>
      <div className=" bg-cover bg-center h-auto over" style={{backgroundImage:`url(${logo})`}}>
-      <div className="bg-black bg-opacity-50 h-full pb-28 z-0">
+      <div className="bg-[#141313] bg-opacity-50 h-full pb-28 z-0">
         <Navbar/>
         <Home/>  
       </div>
