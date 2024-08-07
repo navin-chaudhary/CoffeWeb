@@ -2,7 +2,7 @@ import React from 'react'
 import Heroimage from '/Images/Coffe.png'
 import '/src/index.css'
 
-function Hero1() {
+function Section1() {
   return (
    <>
      <div className='w-full bg-[#379393] flex justify-center'>
@@ -30,4 +30,4 @@ function Hero1() {
   )
 }
 
-export default Hero1
+export default Section1

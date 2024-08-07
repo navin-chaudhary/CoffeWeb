@@ -2,7 +2,7 @@ import React from 'react'
 import Heroimages from '/Images/hero2.png'
 import '/src/index.css'
 
-function Hero2() {
+function Section2() {
   return (
    <>
    
@@ -26,4 +26,4 @@ function Hero2() {
   )
 }
 
-export default Hero2
+export default Section2

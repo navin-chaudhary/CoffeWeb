@@ -2,9 +2,9 @@ import React from 'react'
 import Heroimages1 from '/Images/Moment-01.png'
 import Heroimages2 from '/Images/Moment-02.png'
 import '/src/index.css'
-import Hero7 from '../Hero7/Hero7'
+import Hero7 from '../Section7/Section7'
 
-function Hero6() {
+function Section6() {
   return (
  <>
  <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="currentColor" className="section-6 is-teal-dark"><path d="M 0 -10 L 0 0 C 0 0 0 0 0 0 C 80 0 160 84.97 240 84.97 C 320 84.97 400 99.22 480 99.22 C 560 99.22 640 2.39 720 2.39 C 800 2.39 880 68.73 960 68.73 C 1040 68.73 1120 42.98 1200 42.98 L 1200 0 L 1200 -10 Z"></path></svg>
@@ -31,4 +31,4 @@ function Hero6() {
   )
 }
 
-export default Hero6
+export default Section6

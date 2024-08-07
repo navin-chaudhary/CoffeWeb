@@ -1,15 +1,9 @@
 import { useState } from 'react';
 import '/src/index.css'
 import Accordion from '../Accordion/Accordion';
-// import Accordion from '../Accordion/Accordion';
 
-function Hero7() {
-  const [isCoffeeSourcedOpen, setIsCoffeeSourcedOpen] = useState(false);
-  const [isVeganOptionsOpen, setIsVeganOptionsOpen] = useState(false);
-  const [isLocationOpen, setIsLocationOpen] = useState(false);
-  const [isWifiOpen, setIsWifiOpen] = useState(false);
-  const [isHoursOpen, setIsHoursOpen] = useState(false);
-
+function Section7() {
+ 
   return (
     <>
       
@@ -45,4 +39,4 @@ function Hero7() {
   );
 }
 
-export default Hero7;
+export default Section7;

@@ -3,7 +3,7 @@ import Heroimages1 from '/Images/Good-Coffee1.svg'
 import Heroimages2 from '/Images/Good-Coffee2.svg'
 import Heroimages3 from '/Images/Good-Coffee3.svg'
 import '/src/index.css'
-function Hero3() {
+function Section3() {
   return (
     <>
     
@@ -44,4 +44,4 @@ function Hero3() {
   )
 }
 
-export default Hero3
+export default Section3
