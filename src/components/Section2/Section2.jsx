@@ -8,13 +8,13 @@ function Section2() {
    
    <div className="h-full p-10 w-full bg-[#FFFFFF] flex items-center justify-center ">
     
-      <div className="grid md:grid-cols-2 gap-9 w-full  rounded-lg  overflow-hidden max-w-6xl hero3">
-        <div className="hero2images  flex justify-center items-center">
-          <img src={Heroimages} alt="Coffee" className=" rounded-2xl w-full h-full object-cover" />
+      <div className="grid w-full max-w-6xl overflow-hidden rounded-lg md:grid-cols-2 gap-9 hero3">
+        <div className="flex items-center justify-center hero2images">
+          <img src={Heroimages} alt="Coffee" className="object-cover w-full h-full rounded-2xl" />
         </div>
-        <div className="flex flex-col justify-center items-start  lg:pl-8 lg:pr-8 hero3">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-4 ">Organic, Single Origin & Damn Good</h1>
-          <p className="text-gray-700 mb-6">
+        <div className="flex flex-col items-start justify-center lg:pl-8 lg:pr-8 hero3">
+          <h1 className="mb-4 text-4xl font-extrabold md:text-6xl lg:text-7xl ">Organic, Single Origin & Damn Good</h1>
+          <p className="mb-6 text-gray-700">
             Experience the rich flavors of our unique coffee blends, crafted with the finest organic ingredients from around the world. Each sip is a journey to the heart of damn goodness.
           </p>
           <button className="px-4 py-2 border-2 border-orange-500 text-black hover:border-[#379393] font-extrabold rounded duration-300 ease-out hover:bg-[#379393]">SHOP BEANS</button>
