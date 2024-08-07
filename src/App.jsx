@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Home from './components/Home/Home'
-import logo from '/Images/Bg.png'
+import logo from '/Images/pexels-photo.png'
 import Hero1 from './components/Hero1/Hero1'
 import Hero2 from './components/Hero2/Hero2'
 import Hero3 from './components/Hero3/Hero3'
