@@ -10,8 +10,8 @@ function Hero5() {
       <p className="text-lg text-white mb-10 text-center">
         Whoa, those are some dann good reviews.
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 hero4animate">
-        <div className="text-white border-2 border-[#2A8A89] rounded-xl  p-6 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 hero4animate ">
+        <div className="text-white border-2 border-[#2A8A89] rounded-xl  p-6 hero3">
           <div className="flex items-center mb-4">
             <span className="text-2xl font-bold text-yellow-300">★★★★★</span>
           </div>
@@ -23,7 +23,7 @@ function Hero5() {
             <p>Mr. Navin Chaudhary</p>
           </div>
         </div>
-        <div className="text-white border-2 border-[#2A8A89] rounded-xl  p-6">
+        <div className="text-white border-2 border-[#2A8A89] rounded-xl  p-6 hero3">
           <div className="flex items-center mb-4">
             <span className="text-2xl font-bold text-yellow-300">★★★★★</span>
           </div>
@@ -35,7 +35,7 @@ function Hero5() {
             <p>Mr. Mahesh Chaudhary</p>
           </div>
         </div>
-        <div className="text-white border-2 border-[#2A8A89] rounded-xl  p-6">
+        <div className="text-white border-2 border-[#2A8A89] rounded-xl  p-6 hero3">
           <div className="flex items-center mb-4">
             <span className="text-2xl font-bold text-yellow-300">★★★★★</span>
           </div>

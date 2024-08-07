@@ -15,10 +15,10 @@ function Hero6() {
       </div>
       <div className='flex justify-center '>
       <div className="flex flex-wrap items-center justify-center mt-10">
-        <div className="fleximage hero4animate justify-center items-center  p-4">
+        <div className="fleximage hero4animate hero4ani justify-center items-center  p-4">
           <img src={Heroimages1} alt="Surfboard" className=" w-96  rounded-xl shadow-md" />
         </div>
-        <div className="fleximage hero4animate p-4">
+        <div className="fleximage hero4animate hero4ani p-4">
           <img src={Heroimages2} alt="Skateboard" className=" w-96 rounded-xl shadow-md" />
         </div>
       </div>

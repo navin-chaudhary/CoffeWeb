@@ -67,7 +67,7 @@ function Footer() {
           src={Heroimages1}
           loading="lazy"
           alt="That's Dann Good"
-          className="footer4_tagline"
+          className="footer4_tagline mb-2 lg:mb-0"
         ></img>
       </div>
     </>
