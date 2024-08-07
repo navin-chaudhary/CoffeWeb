@@ -19,10 +19,10 @@ function Hero4() {
           <img
             src={Heroimages1}
             alt="Dann"
-            className="w-72 sm:w-80 h-60 object-cover rounded-lg mb-4"
+            className="w-72 sm:w-80 h-60 object-cover rounded-lg mb-4 "
           />
-          <h3 className="text-xl font-bold  mb-2 text-center">Dann</h3>
-          <p className="text-center">Barista</p>
+          <h3 className="text-xl font-bold  mb-2 text-center">Navin</h3>
+          <p className="text-center">Web Fueler</p>
         </div>
         <div className=" hero4animate hero4ani bg-black text-white rounded-lg shadow-md p-4 lg:p-2 md:p-2  w-80 lg:w-64 sm:w-56 md:w-64">
           <img
@@ -30,7 +30,7 @@ function Hero4() {
             alt="Dann the Mann"
             className="w-72 sm:w-80 h-60 object-cover rounded-lg mb-4"
           />
-          <h3 className="text-xl font-bold  mb-2 text-center">Dann the Mann</h3>
+          <h3 className="text-xl font-bold  mb-2 text-center">Suresh</h3>
           <p className="text-center">Beard Manager</p>
         </div>
         <div className=" hero4animate hero4ani bg-black text-white rounded-lg shadow-md p-4 lg:p-2 md:p-2  w-80 lg:w-64 sm:w-56 md:w-64">
@@ -49,7 +49,7 @@ function Hero4() {
             className="w-72 sm:w-80 h-60 object-cover rounded-lg mb-4"
           />
           <h3 className="text-xl font-bold text-center mb-2">Danny</h3>
-          <p className="text-center">Web Fueler</p>
+          <p className="text-center">Barista</p>
         </div>
       </div>
       </div>

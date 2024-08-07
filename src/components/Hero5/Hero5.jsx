@@ -32,7 +32,7 @@ function Hero5() {
           </p>
           <div className="flex items-center">
             <div className="rounded-full h-10 w-10 text-center bg-[#2A8A89] font-extrabold text-gray-400 p-2 mr-2">M</div>
-            <p>Mr. Mahesh Chaudhary</p>
+            <p>Mr.Mahesh Chaudhary</p>
           </div>
         </div>
         <div className="text-white border-2 border-[#2A8A89] rounded-xl  p-6 hero3">
