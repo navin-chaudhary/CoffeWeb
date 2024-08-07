@@ -1,0 +1,412 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    font-family: roc-grotesk, sans-serif;
+    transition: all .2s;
+}
+@font-face {
+  font-family: DMSans;
+  src: url('/fonts/DMSans-VariableFont_opsz,wght.ttf');
+}
+::selection {
+    background: rgba(192, 101, 34, .7);
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    animation: fade 3s both;
+    animation-timeline:scroll() ;
+    z-index: 1000px;
+  }
+  .icon{
+    display: none;
+  }
+  @keyframes fade {
+    0% {
+      opacity: 1;
+      color: white;
+    }
+    10%{
+      background-color: white;
+      color: black;
+    }
+    100% {
+      opacity: 2;
+      background-color: rgb(245,237,232);   
+       color: black;
+    }
+  }
+  
+  @scroll {
+    .navbar {
+      animation-play-state: paused;
+      background-color: white;
+    }
+  }
+  
+  @scroll:hover,
+  @scroll:active {
+    .navbar {
+      animation-play-state: running;
+      background-color: rgb(201, 130, 43);
+    }
+  }
+  .menu {
+    transition: all 0.3s ease;
+  }
+  .animate{
+    animation: homeanimation 2s  ;
+  }
+  @keyframes homeanimation {
+    0%{
+      /* letter-spacing:1em;
+      filter:blur(8px); */
+      transform:scale(.6);
+      opacity:0;
+    }
+    100%{
+      /* filter:blur(0); */
+      transform:scale(1);
+     opacity:1;
+    }
+  }
+  .heroimages{
+    /* animation: imagesanimation 2s  ; */
+    animation: imageanimate 3s both;
+    animation-timeline:view() ;
+    animation-range: entry 50% cover 50%;
+    z-index: 100px;
+    
+  }
+  @keyframes imageanimate {
+    0%{
+      transform: translateY(-100px);
+   }
+   100%{
+    transform: translateY(0px);
+   }
+  }
+  
+  @scroll {
+    .heroimages {
+      animation-play-state: paused;
+      background-color: white;
+    }
+  }
+  
+  @scroll:hover,
+  @scroll:active {
+    .heroimages {
+      animation-play-state: running;
+      background-color: rgb(201, 130, 43);
+    }
+  }
+
+  .hero2images{
+    animation: imagesanimation 2s  ;
+   
+  }
+  @keyframes imageanimate {
+    0%{
+      transform: translateY(100px);
+   }
+   100%{
+    transform: translateY(0px);
+   }
+  }
+  .section-divider-bottom {
+    position: fixed;
+    bottom: 0%;
+    color: #379393;
+    width: 100%;
+    height: 2rem;
+    position: absolute;
+    top: auto;
+    bottom: -1px;
+    left: 0;
+    overflow: hidden;
+    transform: rotate(180deg);
+    /* z-index: -100px; */
+}
+.section-divider-bottoms{
+    position: fixed;
+    bottom: 0%;
+    color: #C06522;
+    width: 100%;
+    height: 2rem;
+    position: relative;
+    top: auto;
+    bottom: -1px;
+    left: 0;
+    overflow: hidden;
+    transform: rotate(180deg);
+    /* z-index: -100px; */
+}
+
+.section-divider-top {
+  color: #379393;
+  width: 100%;
+  height: 2rem;
+  position: relative;
+  top: -1px;
+  bottom: auto;
+  left: 0;
+  overflow: hidden;
+  transform: rotate(0);
+}
+.section-divider .is-teal-dark {
+  color:#379393;
+}
+
+.section-divider {
+  color: #016664;
+  width: 100%;
+  height: 2rem;
+  position: relative;
+  top: auto;
+  bottom: -1px;
+  left: 0;
+  overflow: hidden;
+  transform: rotate(180deg);
+}
+  .hero3animate{
+    animation: imagesanimation 2s;
+  }
+  .hero4animate{
+    animation: imagesanimation 1s;
+  }
+  @keyframes imagesanimation {
+    0%{
+       transform: translateY(100px);
+    }
+    100%{
+     transform: translateY(0px);
+    }
+  }
+  .navanimate{
+    animation: navanimates 2s;
+  }
+  @keyframes navanimates {
+    0%{
+      transform:translateY(-50px);
+    }
+    100%{
+      transform:translateY(0);
+    }
+  }
+  .activeMenu {
+    display: block;
+    flex-direction: column;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    padding-left: 250px;
+  }
+ .flexitems{
+    display: flex;
+    flex-direction: column;   
+ }
+ .flexitems a:hover{
+    border: none;
+    color: orange;
+ }
+ @media only  screen and (max-width:1035px) {
+    .menu{
+       position: fixed;
+       top: 95px;
+       left: -300px;
+    }
+   
+    .icon{
+      display: block;
+      font-size: 35px;
+      /* background-color: rgb(244, 246, 245); */
+      padding: 5px;
+      border-radius: 10px;
+      
+      cursor: pointer;
+    }
+ }
+ /* hero section  */
+ .home_team_list {
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  grid-template-rows: auto;
+  grid-template-columns:  1fr 1fr 1fr 1fr ;
+  grid-auto-columns: 1fr;
+  align-items: start;
+  justify-items: start;
+  display: grid;
+  grid-row: auto;
+}
+@media screen and (max-width: 1127px) {
+  .home_team_list {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 991px) {
+  .home_team_list {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 584px) {
+  .home_team_list {
+      grid-template-columns: 1fr;
+      /* width: 100%; */
+  }
+  .home_team_list img{
+    height: 300px;
+  }
+  /* .fleximage{
+    width: 100%;
+  } */
+}
+.section-divider-top.is-flip {
+  transform-style: preserve-3d;
+}
+.section-divider-top.is-orange {
+  color: #C06522;
+}
+.section-6.is-teal-dark {
+  color: #016664;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+.section-6 {
+  color: #016664;
+  width: 100%;
+  height: 2rem;
+  position: relative;
+  top: -1px;
+  bottom: auto;
+  left: 0;
+  overflow: hidden;
+  transform: rotate(0);
+}
+.section-3.is-black {
+  color: black;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+.section-3 {
+  color: black;
+  width: 100%;
+  height: 2rem;
+  position: relative;
+  top: auto;
+  bottom: -1px;
+  left: 0;
+  overflow: hidden;
+  transform: rotate(180deg);
+}
+.li1 {
+  position: relative;
+}
+
+.li1:hover::before {
+  content: "LinkedIn";
+  position: absolute;
+  top: -30px;
+  left: 0px;
+  /* right: +100px; */
+  transform: translateX(-50%);
+  width: 70px;
+  padding-left: 4px;
+  background-color: rgba(10, 12, 76, 0.9); 
+  color: #e9eff3; 
+  border-radius: 5px;
+  /* animation: fadeIn 0.3s; */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.li2 {
+  position: relative;
+}
+
+.li2:hover::before {
+  content: "X/Twitter";
+  position: absolute;
+  top: -30px;
+  left: 0px;
+  /* right: +100px; */
+  transform: translateX(-50%);
+  /* width: 70px; */
+  padding-left: 4px;
+  background-color: rgba(10, 12, 76, 0.9); 
+  color: #e9eff3; 
+  border-radius: 5px;
+  /* animation: fadeIn 0.3s; */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.li3 {
+  position: relative;
+}
+
+.li3:hover::before {
+  content: "Email";
+  position: absolute;
+  top: -30px;
+  left: 0px;
+  /* right: +100px; */
+  transform: translateX(-50%);
+  width: 60px;
+  padding-left: 7px;
+  background-color: rgba(10, 12, 76, 0.9); 
+  color: #e9eff3; 
+  border-radius: 5px;
+  animation: fadeIn 0.3s;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+  
+.li4 {
+  position: relative;
+}
+
+.li4:hover::before {
+  content: "Instagram";
+  position: absolute;
+  top: -30px;
+  left: 0px;
+  /* right: +100px; */
+  transform: translateX(-50%);
+  /* width: 70px; */
+  padding-left: 4px;
+  background-color: rgba(10, 12, 76, 0.9); 
+  color: #e9eff3; 
+  border-radius: 5px;
+  animation: fadeIn 0.3s;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+  
+.li5 {
+  position: relative;
+}
+
+.li5:hover::before {
+  content: "Call";
+  position: absolute;
+  top: -30px;
+  left: 0px;
+  /* right: +100px; */
+  transform: translateX(-50%);
+  /* width: 80px; */
+  padding: 3px;
+  background-color: rgba(10, 12, 76, 0.9); 
+  color: #e9eff3; 
+  border-radius: 5px;
+  animation: fadeIn 0.3s;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
