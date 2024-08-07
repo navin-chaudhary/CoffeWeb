@@ -22,7 +22,7 @@ function Hero1() {
       </div>
         </div>
        
-        <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="currentColor" class="section-divider-top"><path d="M 0 -10 L 0 0 C 0 0 0 0 0 0 C 80 0 160 84.97 240 84.97 C 320 84.97 400 99.22 480 99.22 C 560 99.22 640 2.39 720 2.39 C 800 2.39 880 68.73 960 68.73 C 1040 68.73 1120 42.98 1200 42.98 L 1200 0 L 1200 -10 Z"></path></svg>
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none" fill="currentColor" className="section-divider-top"><path d="M 0 -10 L 0 0 C 0 0 0 0 0 0 C 80 0 160 84.97 240 84.97 C 320 84.97 400 99.22 480 99.22 C 560 99.22 640 2.39 720 2.39 C 800 2.39 880 68.73 960 68.73 C 1040 68.73 1120 42.98 1200 42.98 L 1200 0 L 1200 -10 Z"></path></svg>
        
       
        

@@ -3,7 +3,7 @@ import logo from '/Images/Coffee-Logo.svg'
 import '/src/index.css'
 import { TiThMenu } from "react-icons/ti";
 import { GrClose } from "react-icons/gr";
-
+import { Link } from 'react-router-dom';
 function Navbar() {
   const [shownavbar,setshownavbar]=useState(false)
   return (
@@ -21,13 +21,13 @@ function Navbar() {
         }
     
     </div>
-    <div className={`menu flex gap-7 ${shownavbar ? "activeMenu flexitems":""}`}>
-      <a href="#menu" className="navanimate h-10 font-extrabold hover:border-b-2 hover:border-orange-400 p-2">MENU</a>
-      <a href="#shop" className="navanimate h-10 font-extrabold hover:border-b-2 hover:border-orange-400 p-2">SHOP</a>
-      <a href="#about" className="navanimate h-10 font-extrabold hover:border-b-2 hover:border-orange-400 p-2">ABOUT</a>
+    <div className={`menu flex gap-7  ${shownavbar ? "activeMenu flexitems":""}`}>
+      <h1  className="navanimate cursor-pointer h-10 font-extrabold hover:border-b-2 hover:border-orange-400 p-2">MENU</h1>
+      <h1  className="navanimate cursor-pointer h-10 font-extrabold hover:border-b-2 hover:border-orange-400 p-2">SHOP</h1>
+      <h1  className="navanimate cursor-pointer h-10 font-extrabold hover:border-b-2 hover:border-orange-400 p-2">ABOUT</h1>
     </div>
     </div>
-     <a href="/"> <img src={logo} alt="Dann Good Coffee" className="h-16 lg:mr-36 " /></a> 
+     <Link to="/"> <img src={logo} alt="Dann Good Coffee" className="h-16 lg:mr-36 " /></Link> 
     <div>
     <button className="bg-orange-500 font-extrabold text-black hover:bg-[#379393] px-6 py-3 rounded animate-pulse">ORDER</button>
     </div>

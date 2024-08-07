@@ -9,7 +9,7 @@ function Hero3() {
     
     <div className=" hero3maindiv  w-full bg-[#C06522] flex flex-wrap items-center justify-center pt-8 lg:pt-16 lg:pb-10">
     
-       <div className=' w-[400px] h-[300px] m-2 hero3animate'>
+       <div className=' w-[400px] h-[300px] m-2 hero3animate hero3'>
          <div className='flex justify-center items-center'>
           <img src={Heroimages1} alt="Custom Roasts" className='h-20'/>
           </div>

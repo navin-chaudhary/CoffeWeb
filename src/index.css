@@ -31,10 +31,11 @@
       opacity: 1;
       color: white;
     }
-    10%{
+    5%{
       background-color: white;
       color: black;
     }
+    
     100% {
       opacity: 2;
       background-color: rgb(245,237,232);   
@@ -76,37 +77,10 @@
     }
   }
   .heroimages{
-    /* animation: imagesanimation 2s  ; */
-    animation: imageanimate 3s both;
-    animation-timeline:view() ;
-    animation-range: entry 50% cover 50%;
-    z-index: 100px;
-    
-  }
-  @keyframes imageanimate {
-    0%{
-      transform: translateY(-100px);
-   }
-   100%{
-    transform: translateY(0px);
-   }
-  }
+    animation: imagesanimation 2s  ;
   
-  @scroll {
-    .heroimages {
-      animation-play-state: paused;
-      background-color: white;
-    }
   }
-  
-  @scroll:hover,
-  @scroll:active {
-    .heroimages {
-      animation-play-state: running;
-      background-color: rgb(201, 130, 43);
-    }
-  }
-
+ 
   .hero2images{
     animation: imagesanimation 2s  ;
    
@@ -409,4 +383,19 @@ svg:not(:root) {
   border-radius: 5px;
   animation: fadeIn 0.3s;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hero3{
+  animation: fades 1s both;
+  animation-timeline: view();
+  animation-range: entry 50% cover 50%;
+  
+}
+@keyframes fades {
+  0%{
+    transform:scale(.2);
+ }
+ 100%{
+  transform:scale(1);
+ }
 }
